@@ -1,0 +1,15 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/UpdateARecordTest.java",
+      "testCases": [
+        {
+          "methodName": "problem1Test",
+          "label": "Verify updating Alexa's last name to Rush",
+          "description": "Executes problem1(), then queries all records in the site_user table and verifies Alexa's last name is updated from Smith to Rush and the full list of users matches the expected result."
+        }
+      ]
+    }
+  ]
+}
